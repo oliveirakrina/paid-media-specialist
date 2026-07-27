@@ -260,6 +260,13 @@ header.nav.solid .burger svg{ color:var(--c-ink); }
   padding:calc(var(--nav-h) + 74px) 0 190px;
   overflow:hidden;
 }
+.hero .btn-outline{ border-color:var(--hair-line); color:var(--c-white); }
+.hero .btn-outline:hover{ border-color:var(--c-peach); color:var(--c-peach); }
+@media (max-width:640px){
+  .hero{ padding-bottom:56px; }
+  .hero-grid{ gap:36px; }
+  .hero-stats{ margin-top:36px; gap:22px; }
+}
 .hero-grid{
   position:relative; z-index:2;
   display:grid; gap:56px;
